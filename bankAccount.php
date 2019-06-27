@@ -6,11 +6,11 @@ class BankAccount {
     private $_currency;
 
     public function credit($amount) {
-        $_sold += $amount;
+        $this->_sold += $amount;
     }
 
     public function debit($amount) {
-        $_sold -= $amount;
+        $this->_sold -= $amount;
     }
 
     public function holder() {
